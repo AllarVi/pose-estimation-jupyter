@@ -1,5 +1,6 @@
 image-keypoints/
 output-keypoints/
+raw-keypoints/
 
 .ipynb_checkpoints/
 

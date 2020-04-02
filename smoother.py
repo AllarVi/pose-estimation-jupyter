@@ -131,4 +131,4 @@ class Smoother:
 
 
 if __name__ == '__main__':
-    Smoother.run(frames_dir="backflip-1-allar")
+    Smoother.run(frames_dir="backflip-4-rasmus")
