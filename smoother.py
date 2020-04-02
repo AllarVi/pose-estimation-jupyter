@@ -13,8 +13,11 @@ class Smoother:
 
     @staticmethod
     def run(frames_dir):
+        wrapper_input_dir = "output-keypoints"
+        wrapper_output_dir = "smoothed-keypoints"
+
         project_dir = "/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration"
-        frames_root_path = f"{project_dir}/raw-keypoints/{frames_dir}"
+        frames_root_path = f"{project_dir}/{wrapper_input_dir}/{frames_dir}"
         output_frame_data_path = f"{frames_root_path}/{frames_dir}.mov-[frame_idx]-[person_idx].csv"
 
         print(f"Frame data path={output_frame_data_path}")
@@ -34,9 +37,12 @@ class Smoother:
         print(f"Imported data for {len(frame_data)} frames")
 
         for body_part_idx in range(0, 25):
-            frame_data = Smoother.fix_body_part_data(frame_data, body_part_idx)
+            frame_data = Smoother.smooth_average(frame_data, body_part_idx)
 
-        output_frames_root_path = f"{project_dir}/output-keypoints/{frames_dir}"
+        # for body_part_idx in range(0, 25):
+        #   frame_data = Smoother.fill_body_part_data_with_averages(frame_data, body_part_idx)
+
+        output_frames_root_path = f"{project_dir}/{wrapper_output_dir}/{frames_dir}"
 
         if not path.exists(output_frames_root_path):
             print(f"Creating output dir={output_frames_root_path}")
@@ -132,7 +138,33 @@ class Smoother:
                 return body_part_data[idx]
 
     @staticmethod
-    def fix_body_part_data(frame_data, body_part_nr=0):
+    def smooth_average(frame_data, body_part_nr=0):
+        current_body_part_x_data = [Smoother.get_body_part_x_data(frame, body_part_nr) for idx, frame in
+                                    enumerate(frame_data)]
+        current_body_part_y_data = [Smoother.get_body_part_y_data(frame, body_part_nr) for idx, frame in
+                                    enumerate(frame_data)]
+
+        body_part_x_data_series = pd.Series(current_body_part_x_data)
+        body_part_y_data_series = pd.Series(current_body_part_y_data)
+
+        rolling_x = body_part_x_data_series.rolling(window=3)
+        rolling_x_mean = rolling_x.mean()
+
+        rolling_y = body_part_y_data_series.rolling(window=3)
+        rolling_y_mean = rolling_y.mean()
+
+        # Manual fixing
+        rolling_x_mean[0] = current_body_part_x_data[0]
+        rolling_x_mean[1] = current_body_part_x_data[1]
+        rolling_y_mean[0] = current_body_part_y_data[0]
+        rolling_y_mean[1] = current_body_part_y_data[1]
+
+        # Substitute old body part data with new
+        return Smoother.substitute_body_part_data(body_part_nr, frame_data, rolling_x_mean,
+                                                  rolling_y_mean)
+
+    @staticmethod
+    def fill_body_part_data_with_averages(frame_data, body_part_nr=0):
         current_body_part_y_data = [Smoother.get_body_part_y_data(frame, body_part_nr) for idx, frame in
                                     enumerate(frame_data)]
         current_body_part_x_data = [Smoother.get_body_part_x_data(frame, body_part_nr) for idx, frame in
@@ -142,6 +174,11 @@ class Smoother:
         new_body_part_x_data = Smoother.get_new_body_part_data(current_body_part_x_data)
 
         # Substitute old body part data with new
+        return Smoother.substitute_body_part_data(body_part_nr, frame_data, new_body_part_x_data,
+                                                  new_body_part_y_data)
+
+    @staticmethod
+    def substitute_body_part_data(body_part_nr, frame_data, new_body_part_x_data, new_body_part_y_data):
         return [Smoother.get_new_frame(old_frame, body_part_nr, new_body_part_x_data[frame_idx],
                                        new_body_part_y_data[frame_idx]) for frame_idx, old_frame in
                 enumerate(frame_data)]

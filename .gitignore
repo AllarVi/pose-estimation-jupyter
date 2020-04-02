@@ -1,6 +1,7 @@
 image-keypoints/
 output-keypoints/
 raw-keypoints/
+smoothed-keypoints/
 
 .ipynb_checkpoints/
 
