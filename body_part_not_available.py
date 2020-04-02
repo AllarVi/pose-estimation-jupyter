@@ -1,0 +1,2 @@
+class BodyPartPointNotAvailable(Exception):
+    pass

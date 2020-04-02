@@ -1,9 +1,12 @@
 import os
 from glob import glob
 from os import path
+from statistics import mean
 
 import pandas as pd
 from path import Path
+
+from body_part_not_available import BodyPartPointNotAvailable
 
 
 class Smoother:
@@ -96,8 +99,8 @@ class Smoother:
         new_body_part_data = []
 
         for idx, body_part in enumerate(body_part_data):
-            if idx == 0:
-                new_body_part_data.append(body_part)
+            if idx == 0:  # Handle first data point
+                new_body_part_data.append(Smoother.get_next_available_body_part_point(idx, body_part_data))
                 continue
 
             previous_body_part = new_body_part_data[idx - 1]
@@ -106,11 +109,27 @@ class Smoother:
                 f"Body part frame={idx} {body_part} - {previous_body_part} = {body_part - previous_body_part} is {body_part == 0}")
 
             if body_part == 0:
-                new_body_part_data.append(previous_body_part)
+                try:
+                    next_available = Smoother.get_next_available_body_part_point(idx, body_part_data)
+                except BodyPartPointNotAvailable:
+                    next_available = previous_body_part
+
+                new_average = mean([previous_body_part, next_available])
+
+                new_body_part_data.append(new_average)
             else:
                 new_body_part_data.append(body_part)
 
         return new_body_part_data
+
+    @staticmethod
+    def get_next_available_body_part_point(start, body_part_data):
+        for idx in range(start, len(body_part_data)):
+            if (idx + 1) == len(body_part_data):
+                raise BodyPartPointNotAvailable
+
+            if body_part_data[idx]:
+                return body_part_data[idx]
 
     @staticmethod
     def fix_body_part_data(frame_data, body_part_nr=0):
