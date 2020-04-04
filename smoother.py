@@ -12,21 +12,19 @@ from body_part_not_available import BodyPartPointNotAvailable
 class Smoother:
 
     @staticmethod
-    def run(frames_dir):
-        wrapper_input_dir = "output-keypoints"
-        wrapper_output_dir = "smoothed-keypoints"
+    def run(frames_dir, project_dir, wrapper_input_dir):
+        wrapper_output_dir = "filled-keypoints"
 
-        project_dir = "/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration"
-        frames_root_path = f"{project_dir}/{wrapper_input_dir}/{frames_dir}"
-        output_frame_data_path = f"{frames_root_path}/{frames_dir}.mov-[frame_idx]-[person_idx].csv"
+        frames_dir_full_path = f"{project_dir}/{wrapper_input_dir}/{frames_dir}"
+        frame_file_full_path = f"{frames_dir_full_path}/{frames_dir}.mov-[frame_idx]-[person_idx].csv"
 
-        print(f"Frame data path={output_frame_data_path}")
+        print(f"Frame file full path={frame_file_full_path}")
 
-        input_files = [Path(f).abspath() for f in glob(frames_root_path + '/*')]
+        input_files = [Path(f).abspath() for f in glob(frames_dir_full_path + '/*')]
 
-        print(f"Root path includes {len(input_files)} files")
+        print(f"Input path includes {len(input_files)} files")
 
-        all_persons_files = Smoother.get_person_files(input_files, output_frame_data_path)
+        all_persons_files = Smoother.get_person_files(input_files, frame_file_full_path)
 
         # Collecting frame data for the person with index 0
         person_idx_to_collect = 0
@@ -36,11 +34,11 @@ class Smoother:
 
         print(f"Imported data for {len(frame_data)} frames")
 
-        for body_part_idx in range(0, 25):
-            frame_data = Smoother.smooth_average(frame_data, body_part_idx)
-
         # for body_part_idx in range(0, 25):
-        #   frame_data = Smoother.fill_body_part_data_with_averages(frame_data, body_part_idx)
+        #   frame_data = Smoother.smooth_average(frame_data, body_part_idx)
+
+        for body_part_idx in range(0, 25):
+            frame_data = Smoother.fill_body_part_data_with_averages(frame_data, body_part_idx)
 
         output_frames_root_path = f"{project_dir}/{wrapper_output_dir}/{frames_dir}"
 
@@ -49,11 +47,11 @@ class Smoother:
             os.mkdir(output_frames_root_path)
 
         for idx, fixed_frame in enumerate(frame_data):
-            output_frame_data_path = f"{output_frames_root_path}/{frames_dir}.mov-[frame_idx]-[person_idx].csv"
-            output_frame_data_path = output_frame_data_path.replace('[frame_idx]', str(idx))
-            output_frame_data_path = output_frame_data_path.replace('[person_idx]', str(person_idx_to_collect))
+            frame_file_full_path = f"{output_frames_root_path}/{frames_dir}.mov-[frame_idx]-[person_idx].csv"
+            frame_file_full_path = frame_file_full_path.replace('[frame_idx]', str(idx))
+            frame_file_full_path = frame_file_full_path.replace('[person_idx]', str(person_idx_to_collect))
 
-            fixed_frame.to_csv(output_frame_data_path, index=False)
+            fixed_frame.to_csv(frame_file_full_path, index=False)
 
     @staticmethod
     def get_frame_data(frame_file):
@@ -111,8 +109,8 @@ class Smoother:
 
             previous_body_part = new_body_part_data[idx - 1]
 
-            print(
-                f"Body part frame={idx} {body_part} - {previous_body_part} = {body_part - previous_body_part} is {body_part == 0}")
+            # print(
+            #    f"Body part frame={idx} {body_part} - {previous_body_part} = {body_part - previous_body_part} is {body_part == 0}")
 
             if body_part == 0:
                 try:
@@ -194,4 +192,6 @@ class Smoother:
 
 
 if __name__ == '__main__':
-    Smoother.run(frames_dir="backflip-1-allar")
+    Smoother.run(frames_dir="backflip-1-allar",
+                 project_dir="/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration",
+                 wrapper_input_dir="raw-keypoints")
