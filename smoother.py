@@ -13,7 +13,7 @@ class Smoother:
 
     @staticmethod
     def run(frames_dir, project_dir, wrapper_input_dir):
-        wrapper_output_dir = "filled-keypoints"
+        wrapper_output_dir = "smoothed-keypoints"
 
         frames_dir_full_path = f"{project_dir}/{wrapper_input_dir}/{frames_dir}"
         frame_file_full_path = f"{frames_dir_full_path}/{frames_dir}.mov-[frame_idx]-[person_idx].csv"
@@ -34,11 +34,11 @@ class Smoother:
 
         print(f"Imported data for {len(frame_data)} frames")
 
-        # for body_part_idx in range(0, 25):
-        #   frame_data = Smoother.smooth_average(frame_data, body_part_idx)
-
         for body_part_idx in range(0, 25):
-            frame_data = Smoother.fill_body_part_data_with_averages(frame_data, body_part_idx)
+           frame_data = Smoother.smooth_average(frame_data, body_part_idx)
+
+        #for body_part_idx in range(0, 25):
+        #    frame_data = Smoother.fill_body_part_data_with_averages(frame_data, body_part_idx)
 
         output_frames_root_path = f"{project_dir}/{wrapper_output_dir}/{frames_dir}"
 
@@ -104,7 +104,12 @@ class Smoother:
 
         for idx, body_part in enumerate(body_part_data):
             if idx == 0:  # Handle first data point
-                new_body_part_data.append(Smoother.get_next_available_body_part_point(idx, body_part_data))
+                try:
+                    new_body_part_data.append(Smoother.get_next_available_body_part_point(idx, body_part_data))
+                except BodyPartPointNotAvailable:
+                    print("WARN! Body part not available at all...")
+                    new_body_part_data = body_part_data
+                    break
                 continue
 
             previous_body_part = new_body_part_data[idx - 1]

@@ -1,0 +1,1361 @@
+/Users/allarviinamae/.pyenv/versions/openpose-jupyter-data-exploration/bin/python /Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/main.py
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-40-margus/backflip-40-margus.mov-[frame_idx]-[person_idx].csv
+Input path includes 85 files
+Found 2 persons
+Person 0 has 83 frame files
+Person 1 has 2 frame files
+Imported data for 83 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-40-margus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-31-rasmus/flack-31-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 113 files
+Found 3 persons
+Person 0 has 96 frame files
+Person 1 has 15 frame files
+Person 2 has 2 frame files
+Imported data for 96 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-31-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-64-rasmus/flack-64-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 117 files
+Found 4 persons
+Person 0 has 112 frame files
+Person 1 has 3 frame files
+Person 2 has 1 frame files
+Person 3 has 1 frame files
+Imported data for 112 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-64-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-19-rasmus/flack-19-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 105 files
+Found 3 persons
+Person 0 has 97 frame files
+Person 1 has 7 frame files
+Person 2 has 1 frame files
+Imported data for 97 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-19-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-59-martin/flack-59-martin.mov-[frame_idx]-[person_idx].csv
+Input path includes 110 files
+Found 3 persons
+Person 0 has 95 frame files
+Person 1 has 11 frame files
+Person 2 has 4 frame files
+Imported data for 95 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-59-martin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-82-hendrik/backflip-82-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 71 files
+Found 3 persons
+Person 0 has 64 frame files
+Person 1 has 2 frame files
+Person 2 has 1 frame files
+Imported data for 64 frames
+WARN! Body part not available at all...
+WARN! Body part not available at all...
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-82-hendrik
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-76-margus/backflip-76-margus.mov-[frame_idx]-[person_idx].csv
+Input path includes 70 files
+Found 1 persons
+Person 0 has 61 frame files
+Imported data for 61 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-76-margus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-66-allar/backflip-66-allar.mov-[frame_idx]-[person_idx].csv
+Input path includes 86 files
+Found 2 persons
+Person 0 has 84 frame files
+Person 1 has 2 frame files
+Imported data for 84 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-66-allar
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-55-martin/flack-55-martin.mov-[frame_idx]-[person_idx].csv
+Input path includes 102 files
+Found 3 persons
+Person 0 has 97 frame files
+Person 1 has 4 frame files
+Person 2 has 1 frame files
+Imported data for 97 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-55-martin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-68-rasmus/flack-68-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 113 files
+Found 3 persons
+Person 0 has 102 frame files
+Person 1 has 10 frame files
+Person 2 has 1 frame files
+Imported data for 102 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-68-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-23-tiit/backflip-23-tiit.mov-[frame_idx]-[person_idx].csv
+Input path includes 79 files
+Found 2 persons
+Person 0 has 77 frame files
+Person 1 has 2 frame files
+Imported data for 77 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-23-tiit
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-7-hendrik/flack-7-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 98 files
+Found 2 persons
+Person 0 has 94 frame files
+Person 1 has 4 frame files
+Imported data for 94 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-7-hendrik
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-4-martin/flack-4-martin.mov-[frame_idx]-[person_idx].csv
+Input path includes 122 files
+Found 3 persons
+Person 0 has 100 frame files
+Person 1 has 16 frame files
+Person 2 has 6 frame files
+Imported data for 100 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-4-martin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-15-rasmus/flack-15-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 133 files
+Found 3 persons
+Person 0 has 101 frame files
+Person 1 has 30 frame files
+Person 2 has 2 frame files
+Imported data for 101 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-15-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-36-hendrik/flack-36-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 112 files
+Found 3 persons
+Person 0 has 100 frame files
+Person 1 has 11 frame files
+Person 2 has 1 frame files
+Imported data for 100 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-36-hendrik
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-64-allar/backflip-64-allar.mov-[frame_idx]-[person_idx].csv
+Input path includes 86 files
+Found 2 persons
+Person 0 has 85 frame files
+Person 1 has 1 frame files
+Imported data for 85 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-64-allar
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-6-rasmus/backflip-6-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 100 files
+Found 2 persons
+Person 0 has 94 frame files
+Person 1 has 1 frame files
+Imported data for 94 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-6-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-82-martin/flack-82-martin.mov-[frame_idx]-[person_idx].csv
+Input path includes 101 files
+Found 2 persons
+Person 0 has 100 frame files
+Person 1 has 1 frame files
+Imported data for 100 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-82-martin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-35-margus/flack-35-margus.mov-[frame_idx]-[person_idx].csv
+Input path includes 115 files
+Found 2 persons
+Person 0 has 106 frame files
+Person 1 has 9 frame files
+Imported data for 106 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-35-margus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-17-gert/backflip-17-gert.mov-[frame_idx]-[person_idx].csv
+Input path includes 166 files
+Found 5 persons
+Person 0 has 81 frame files
+Person 1 has 73 frame files
+Person 2 has 7 frame files
+Person 3 has 4 frame files
+Person 4 has 1 frame files
+Imported data for 81 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-17-gert
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-38-mario/backflip-38-mario.mov-[frame_idx]-[person_idx].csv
+Input path includes 90 files
+Found 2 persons
+Person 0 has 88 frame files
+Person 1 has 2 frame files
+Imported data for 88 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-38-mario
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-39-margus/flack-39-margus.mov-[frame_idx]-[person_idx].csv
+Input path includes 94 files
+Found 2 persons
+Person 0 has 89 frame files
+Person 1 has 5 frame files
+Imported data for 89 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-39-margus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-72-hendrik/flack-72-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 108 files
+Found 2 persons
+Person 0 has 96 frame files
+Person 1 has 12 frame files
+Imported data for 96 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-72-hendrik
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-90-keit/backflip-90-keit.mov-[frame_idx]-[person_idx].csv
+Input path includes 71 files
+Found 3 persons
+Person 0 has 60 frame files
+Person 1 has 3 frame files
+Person 2 has 1 frame files
+Imported data for 60 frames
+WARN! Body part not available at all...
+WARN! Body part not available at all...
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-90-keit
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-32-hendrik/backflip-32-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 92 files
+Found 2 persons
+Person 0 has 88 frame files
+Person 1 has 4 frame files
+Imported data for 88 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-32-hendrik
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-69-keit/backflip-69-keit.mov-[frame_idx]-[person_idx].csv
+Input path includes 69 files
+Found 2 persons
+Person 0 has 55 frame files
+Person 1 has 3 frame files
+Imported data for 55 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-69-keit
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-20-martin/backflip-20-martin.mov-[frame_idx]-[person_idx].csv
+Input path includes 96 files
+Found 2 persons
+Person 0 has 93 frame files
+Person 1 has 3 frame files
+Imported data for 93 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-20-martin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-25-margus/flack-25-margus.mov-[frame_idx]-[person_idx].csv
+Input path includes 117 files
+Found 4 persons
+Person 0 has 98 frame files
+Person 1 has 17 frame files
+Person 2 has 1 frame files
+Person 3 has 1 frame files
+Imported data for 98 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-25-margus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-29-julia/flack-29-julia.mov-[frame_idx]-[person_idx].csv
+Input path includes 104 files
+Found 3 persons
+Person 0 has 93 frame files
+Person 1 has 10 frame files
+Person 2 has 1 frame files
+Imported data for 93 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-29-julia
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-8-rasmus/backflip-8-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 95 files
+Found 2 persons
+Person 0 has 88 frame files
+Person 1 has 2 frame files
+Imported data for 88 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-8-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-68-keit/backflip-68-keit.mov-[frame_idx]-[person_idx].csv
+Input path includes 76 files
+Found 2 persons
+Person 0 has 65 frame files
+Person 1 has 4 frame files
+Imported data for 65 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-68-keit
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-91-keit/backflip-91-keit.mov-[frame_idx]-[person_idx].csv
+Input path includes 74 files
+Found 2 persons
+Person 0 has 63 frame files
+Person 1 has 1 frame files
+Imported data for 63 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-91-keit
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-80-martin/flack-80-martin.mov-[frame_idx]-[person_idx].csv
+Input path includes 118 files
+Found 3 persons
+Person 0 has 104 frame files
+Person 1 has 13 frame files
+Person 2 has 1 frame files
+Imported data for 104 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-80-martin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-73-hendrik/flack-73-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 106 files
+Found 4 persons
+Person 0 has 98 frame files
+Person 1 has 6 frame files
+Person 2 has 1 frame files
+Person 3 has 1 frame files
+Imported data for 98 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-73-hendrik
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-4-rasmus/backflip-4-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 106 files
+Found 2 persons
+Person 0 has 100 frame files
+Person 1 has 6 frame files
+Imported data for 100 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-4-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-54-rasmus/backflip-54-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 102 files
+Found 1 persons
+Person 0 has 98 frame files
+Imported data for 98 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-54-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-22-martin/backflip-22-martin.mov-[frame_idx]-[person_idx].csv
+Input path includes 185 files
+Found 4 persons
+Person 0 has 93 frame files
+Person 1 has 88 frame files
+Person 2 has 3 frame files
+Person 3 has 1 frame files
+Imported data for 93 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-22-martin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-16-gert/backflip-16-gert.mov-[frame_idx]-[person_idx].csv
+Input path includes 172 files
+Found 4 persons
+Person 0 has 82 frame files
+Person 1 has 81 frame files
+Person 2 has 8 frame files
+Person 3 has 1 frame files
+Imported data for 82 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-16-gert
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-48-joosep/backflip-48-joosep.mov-[frame_idx]-[person_idx].csv
+Input path includes 94 files
+Found 2 persons
+Person 0 has 92 frame files
+Person 1 has 1 frame files
+Imported data for 92 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-48-joosep
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-47-dagne/backflip-47-dagne.mov-[frame_idx]-[person_idx].csv
+Input path includes 84 files
+Found 2 persons
+Person 0 has 80 frame files
+Person 1 has 4 frame files
+Imported data for 80 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-47-dagne
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-33-rasmus/flack-33-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 111 files
+Found 3 persons
+Person 0 has 103 frame files
+Person 1 has 7 frame files
+Person 2 has 1 frame files
+Imported data for 103 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-33-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-61-martin/flack-61-martin.mov-[frame_idx]-[person_idx].csv
+Input path includes 101 files
+Found 2 persons
+Person 0 has 99 frame files
+Person 1 has 2 frame files
+Imported data for 99 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-61-martin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-83-hendrik/backflip-83-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 79 files
+Found 2 persons
+Person 0 has 65 frame files
+Person 1 has 5 frame files
+Imported data for 65 frames
+WARN! Body part not available at all...
+WARN! Body part not available at all...
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-83-hendrik
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-17-rasmus/flack-17-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 174 files
+Found 3 persons
+Person 0 has 99 frame files
+Person 1 has 74 frame files
+Person 2 has 1 frame files
+Imported data for 99 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-17-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-74-kristjan/backflip-74-kristjan.mov-[frame_idx]-[person_idx].csv
+Input path includes 81 files
+Found 2 persons
+Person 0 has 67 frame files
+Person 1 has 2 frame files
+Imported data for 67 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-74-kristjan
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-57-martin/flack-57-martin.mov-[frame_idx]-[person_idx].csv
+Input path includes 108 files
+Found 3 persons
+Person 0 has 99 frame files
+Person 1 has 8 frame files
+Person 2 has 1 frame files
+Imported data for 99 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-57-martin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-78-margus/backflip-78-margus.mov-[frame_idx]-[person_idx].csv
+Input path includes 72 files
+Found 1 persons
+Person 0 has 62 frame files
+Imported data for 62 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-78-margus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-6-hendrik/flack-6-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 105 files
+Found 3 persons
+Person 0 has 92 frame files
+Person 1 has 12 frame files
+Person 2 has 1 frame files
+Imported data for 92 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-6-hendrik
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-37-hendrik/flack-37-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 110 files
+Found 3 persons
+Person 0 has 102 frame files
+Person 1 has 7 frame files
+Person 2 has 1 frame files
+Imported data for 102 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-37-hendrik
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-66-rasmus/flack-66-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 104 files
+Found 2 persons
+Person 0 has 101 frame files
+Person 1 has 3 frame files
+Imported data for 101 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-66-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-42-nastja/backflip-42-nastja.mov-[frame_idx]-[person_idx].csv
+Input path includes 88 files
+Found 2 persons
+Person 0 has 78 frame files
+Person 1 has 10 frame files
+Imported data for 78 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-42-nastja
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-65-allar/backflip-65-allar.mov-[frame_idx]-[person_idx].csv
+Input path includes 92 files
+Found 3 persons
+Person 0 has 86 frame files
+Person 1 has 5 frame files
+Person 2 has 1 frame files
+Imported data for 86 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-65-allar
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-84-martin/flack-84-martin.mov-[frame_idx]-[person_idx].csv
+Input path includes 108 files
+Found 3 persons
+Person 0 has 97 frame files
+Person 1 has 10 frame files
+Person 2 has 1 frame files
+Imported data for 97 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-84-martin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-31-hendrik/backflip-31-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 93 files
+Found 3 persons
+Person 0 has 90 frame files
+Person 1 has 2 frame files
+Person 2 has 1 frame files
+Imported data for 90 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-31-hendrik
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-71-kristiin/backflip-71-kristiin.mov-[frame_idx]-[person_idx].csv
+Input path includes 60 files
+Found 2 persons
+Person 0 has 53 frame files
+Person 1 has 2 frame files
+Imported data for 53 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-71-kristiin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-70-kristiin/backflip-70-kristiin.mov-[frame_idx]-[person_idx].csv
+Input path includes 59 files
+Found 2 persons
+Person 0 has 49 frame files
+Person 1 has 2 frame files
+Imported data for 49 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-70-kristiin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-62-rasmus/flack-62-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 110 files
+Found 2 persons
+Person 0 has 102 frame files
+Person 1 has 8 frame files
+Imported data for 102 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-62-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-13-rasmus/flack-13-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 202 files
+Found 4 persons
+Person 0 has 110 frame files
+Person 1 has 70 frame files
+Person 2 has 17 frame files
+Person 3 has 5 frame files
+Imported data for 110 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-13-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-2-martin/flack-2-martin.mov-[frame_idx]-[person_idx].csv
+Input path includes 142 files
+Found 3 persons
+Person 0 has 99 frame files
+Person 1 has 38 frame files
+Person 2 has 5 frame files
+Imported data for 99 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-2-martin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-50-kristiin/flack-50-kristiin.mov-[frame_idx]-[person_idx].csv
+Input path includes 97 files
+Found 2 persons
+Person 0 has 94 frame files
+Person 1 has 3 frame files
+Imported data for 94 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-50-kristiin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-51-kristiin/flack-51-kristiin.mov-[frame_idx]-[person_idx].csv
+Input path includes 96 files
+Found 3 persons
+Person 0 has 93 frame files
+Person 1 has 2 frame files
+Person 2 has 1 frame files
+Imported data for 93 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-51-kristiin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-70-rasmus/flack-70-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 111 files
+Found 3 persons
+Person 0 has 101 frame files
+Person 1 has 7 frame files
+Person 2 has 3 frame files
+Imported data for 101 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-70-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-73-kristjan/backflip-73-kristjan.mov-[frame_idx]-[person_idx].csv
+Input path includes 76 files
+Found 3 persons
+Person 0 has 61 frame files
+Person 1 has 2 frame files
+Person 2 has 1 frame files
+Imported data for 61 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-73-kristjan
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-72-kristjan/backflip-72-kristjan.mov-[frame_idx]-[person_idx].csv
+Input path includes 74 files
+Found 1 persons
+Person 0 has 63 frame files
+Imported data for 63 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-72-kristjan
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-58-margus/backflip-58-margus.mov-[frame_idx]-[person_idx].csv
+Input path includes 89 files
+Found 1 persons
+Person 0 has 88 frame files
+Imported data for 88 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-58-margus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-81-hendrik/backflip-81-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 71 files
+Found 2 persons
+Person 0 has 59 frame files
+Person 1 has 4 frame files
+Imported data for 59 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-81-hendrik
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-77-martin/flack-77-martin.mov-[frame_idx]-[person_idx].csv
+Input path includes 96 files
+Found 3 persons
+Person 0 has 90 frame files
+Person 1 has 5 frame files
+Person 2 has 1 frame files
+Imported data for 90 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-77-martin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-25-tiit/backflip-25-tiit.mov-[frame_idx]-[person_idx].csv
+Input path includes 80 files
+Found 2 persons
+Person 0 has 78 frame files
+Person 1 has 2 frame files
+Imported data for 78 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-25-tiit
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-28-hendrik/backflip-28-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 217 files
+Found 5 persons
+Person 0 has 86 frame files
+Person 1 has 79 frame files
+Person 2 has 49 frame files
+Person 3 has 2 frame files
+Person 4 has 1 frame files
+Imported data for 86 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-28-hendrik
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-24-tiit/backflip-24-tiit.mov-[frame_idx]-[person_idx].csv
+Input path includes 80 files
+Found 2 persons
+Person 0 has 79 frame files
+Person 1 has 1 frame files
+Imported data for 79 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-24-tiit
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-63-allar/backflip-63-allar.mov-[frame_idx]-[person_idx].csv
+Input path includes 85 files
+Found 1 persons
+Person 0 has 84 frame files
+Imported data for 84 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-63-allar
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-11-rasmus/flack-11-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 123 files
+Found 3 persons
+Person 0 has 110 frame files
+Person 1 has 12 frame files
+Person 2 has 1 frame files
+Imported data for 110 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-11-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-46-dagne/backflip-46-dagne.mov-[frame_idx]-[person_idx].csv
+Input path includes 85 files
+Found 2 persons
+Person 0 has 81 frame files
+Person 1 has 4 frame files
+Imported data for 81 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-46-dagne
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-56-margus/backflip-56-margus.mov-[frame_idx]-[person_idx].csv
+Input path includes 87 files
+Found 1 persons
+Person 0 has 86 frame files
+Imported data for 86 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-56-margus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-87-joosep/backflip-87-joosep.mov-[frame_idx]-[person_idx].csv
+Input path includes 83 files
+Found 1 persons
+Person 0 has 71 frame files
+Imported data for 71 frames
+WARN! Body part not available at all...
+WARN! Body part not available at all...
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-87-joosep
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-39-margus/backflip-39-margus.mov-[frame_idx]-[person_idx].csv
+Input path includes 84 files
+Found 2 persons
+Person 0 has 81 frame files
+Person 1 has 3 frame files
+Imported data for 81 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-39-margus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-29-hendrik/backflip-29-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 172 files
+Found 4 persons
+Person 0 has 87 frame files
+Person 1 has 81 frame files
+Person 2 has 3 frame files
+Person 3 has 1 frame files
+Imported data for 87 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-29-hendrik
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-80-hendrik/backflip-80-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 76 files
+Found 2 persons
+Person 0 has 67 frame files
+Person 1 has 4 frame files
+Imported data for 67 frames
+WARN! Body part not available at all...
+WARN! Body part not available at all...
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-80-hendrik
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-79-martin/flack-79-martin.mov-[frame_idx]-[person_idx].csv
+Input path includes 109 files
+Found 2 persons
+Person 0 has 106 frame files
+Person 1 has 3 frame files
+Imported data for 106 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-79-martin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-47-kristiin/flack-47-kristiin.mov-[frame_idx]-[person_idx].csv
+Input path includes 98 files
+Found 3 persons
+Person 0 has 93 frame files
+Person 1 has 4 frame files
+Person 2 has 1 frame files
+Imported data for 93 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-47-kristiin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-46-kristiin/flack-46-kristiin.mov-[frame_idx]-[person_idx].csv
+Input path includes 101 files
+Found 2 persons
+Person 0 has 96 frame files
+Person 1 has 5 frame files
+Imported data for 96 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-46-kristiin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-50-joosep/backflip-50-joosep.mov-[frame_idx]-[person_idx].csv
+Input path includes 112 files
+Found 2 persons
+Person 0 has 110 frame files
+Person 1 has 1 frame files
+Imported data for 110 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-50-joosep
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-28-julia/flack-28-julia.mov-[frame_idx]-[person_idx].csv
+Input path includes 105 files
+Found 2 persons
+Person 0 has 95 frame files
+Person 1 has 10 frame files
+Imported data for 95 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-28-julia
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-40-margus/flack-40-margus.mov-[frame_idx]-[person_idx].csv
+Input path includes 102 files
+Found 2 persons
+Person 0 has 94 frame files
+Person 1 has 8 frame files
+Imported data for 94 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-40-margus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-30-hendrik/backflip-30-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 95 files
+Found 2 persons
+Person 0 has 90 frame files
+Person 1 has 5 frame files
+Imported data for 90 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-30-hendrik
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-52-rasmus/backflip-52-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 106 files
+Found 1 persons
+Person 0 has 105 frame files
+Imported data for 105 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-52-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-21-martin/backflip-21-martin.mov-[frame_idx]-[person_idx].csv
+Input path includes 161 files
+Found 2 persons
+Person 0 has 93 frame files
+Person 1 has 68 frame files
+Imported data for 93 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-21-martin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-9-hendrik/flack-9-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 111 files
+Found 3 persons
+Person 0 has 92 frame files
+Person 1 has 18 frame files
+Person 2 has 1 frame files
+Imported data for 92 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-9-hendrik
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-38-hendrik/flack-38-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 112 files
+Found 3 persons
+Person 0 has 99 frame files
+Person 1 has 11 frame files
+Person 2 has 2 frame files
+Imported data for 99 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-38-hendrik
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-83-martin/flack-83-martin.mov-[frame_idx]-[person_idx].csv
+Input path includes 94 files
+Found 2 persons
+Person 0 has 91 frame files
+Person 1 has 3 frame files
+Imported data for 91 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-83-martin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-7-rasmus/backflip-7-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 103 files
+Found 2 persons
+Person 0 has 99 frame files
+Person 1 has 1 frame files
+Imported data for 99 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-7-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-75-hendrik/flack-75-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 100 files
+Found 2 persons
+Person 0 has 91 frame files
+Person 1 has 9 frame files
+Imported data for 91 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-75-hendrik
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-26-margus/flack-26-margus.mov-[frame_idx]-[person_idx].csv
+Input path includes 105 files
+Found 3 persons
+Person 0 has 94 frame files
+Person 1 has 10 frame files
+Person 2 has 1 frame files
+Imported data for 94 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-26-margus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-58-martin/flack-58-martin.mov-[frame_idx]-[person_idx].csv
+Input path includes 98 files
+Found 2 persons
+Person 0 has 95 frame files
+Person 1 has 3 frame files
+Imported data for 95 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-58-martin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-27-tiit/backflip-27-tiit.mov-[frame_idx]-[person_idx].csv
+Input path includes 81 files
+Found 2 persons
+Person 0 has 78 frame files
+Person 1 has 3 frame files
+Imported data for 78 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-27-tiit
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-18-rasmus/flack-18-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 232 files
+Found 4 persons
+Person 0 has 104 frame files
+Person 1 has 104 frame files
+Person 2 has 22 frame files
+Person 3 has 2 frame files
+Imported data for 104 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-18-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-65-rasmus/flack-65-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 116 files
+Found 2 persons
+Person 0 has 106 frame files
+Person 1 has 10 frame files
+Imported data for 106 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-65-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-14-rasmus/flack-14-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 251 files
+Found 6 persons
+Person 0 has 109 frame files
+Person 1 has 97 frame files
+Person 2 has 32 frame files
+Person 3 has 8 frame files
+Person 4 has 3 frame files
+Person 5 has 2 frame files
+Imported data for 109 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-14-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-43-hendrik/flack-43-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 106 files
+Found 2 persons
+Person 0 has 96 frame files
+Person 1 has 10 frame files
+Imported data for 96 frames
+WARN! Body part not available at all...
+WARN! Body part not available at all...
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-43-hendrik
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-43-kristjan/backflip-43-kristjan.mov-[frame_idx]-[person_idx].csv
+Input path includes 92 files
+Found 2 persons
+Person 0 has 87 frame files
+Person 1 has 3 frame files
+Imported data for 87 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-43-kristjan
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-5-martin/flack-5-martin.mov-[frame_idx]-[person_idx].csv
+Input path includes 113 files
+Found 2 persons
+Person 0 has 102 frame files
+Person 1 has 11 frame files
+Imported data for 102 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-5-martin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-69-rasmus/flack-69-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 114 files
+Found 3 persons
+Person 0 has 100 frame files
+Person 1 has 11 frame files
+Person 2 has 3 frame files
+Imported data for 100 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-69-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-54-martin/flack-54-martin.mov-[frame_idx]-[person_idx].csv
+Input path includes 108 files
+Found 3 persons
+Person 0 has 96 frame files
+Person 1 has 10 frame files
+Person 2 has 2 frame files
+Imported data for 96 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-54-martin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-95-hendrik/backflip-95-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 78 files
+Found 2 persons
+Person 0 has 66 frame files
+Person 1 has 1 frame files
+Imported data for 66 frames
+WARN! Body part not available at all...
+WARN! Body part not available at all...
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-95-hendrik
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-77-margus/backflip-77-margus.mov-[frame_idx]-[person_idx].csv
+Input path includes 69 files
+Found 1 persons
+Person 0 has 59 frame files
+Imported data for 59 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-77-margus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-61-hendrik/backflip-61-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 95 files
+Found 1 persons
+Person 0 has 93 frame files
+Imported data for 93 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-61-hendrik
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-92-erko/backflip-92-erko.mov-[frame_idx]-[person_idx].csv
+Input path includes 69 files
+Found 2 persons
+Person 0 has 54 frame files
+Person 1 has 1 frame files
+Imported data for 54 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-92-erko
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-30-rasmus/flack-30-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 114 files
+Found 3 persons
+Person 0 has 100 frame files
+Person 1 has 13 frame files
+Person 2 has 1 frame files
+Imported data for 100 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-30-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-13-hendrik/backflip-13-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 77 files
+Found 1 persons
+Person 0 has 64 frame files
+Imported data for 64 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-13-hendrik
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-33-mario/backflip-33-mario.mov-[frame_idx]-[person_idx].csv
+Input path includes 85 files
+Found 3 persons
+Person 0 has 81 frame files
+Person 1 has 3 frame files
+Person 2 has 1 frame files
+Imported data for 81 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-33-mario
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-56-martin/flack-56-martin.mov-[frame_idx]-[person_idx].csv
+Input path includes 109 files
+Found 3 persons
+Person 0 has 102 frame files
+Person 1 has 6 frame files
+Person 2 has 1 frame files
+Imported data for 102 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-56-martin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-75-margus/backflip-75-margus.mov-[frame_idx]-[person_idx].csv
+Input path includes 68 files
+Found 1 persons
+Person 0 has 60 frame files
+Imported data for 60 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-75-margus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-16-rasmus/flack-16-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 114 files
+Found 2 persons
+Person 0 has 108 frame files
+Person 1 has 6 frame files
+Imported data for 108 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-16-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-37-mario/backflip-37-mario.mov-[frame_idx]-[person_idx].csv
+Input path includes 89 files
+Found 2 persons
+Person 0 has 86 frame files
+Person 1 has 2 frame files
+Imported data for 86 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-37-mario
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-67-rasmus/flack-67-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 103 files
+Found 2 persons
+Person 0 has 101 frame files
+Person 1 has 2 frame files
+Imported data for 101 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-67-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-93-erko/backflip-93-erko.mov-[frame_idx]-[person_idx].csv
+Input path includes 68 files
+Found 2 persons
+Person 0 has 53 frame files
+Person 1 has 2 frame files
+Imported data for 53 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-93-erko
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-84-hendrik/backflip-84-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 71 files
+Found 1 persons
+Person 0 has 62 frame files
+Imported data for 62 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-84-hendrik
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-42-hendrik/flack-42-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 94 files
+Found 3 persons
+Person 0 has 84 frame files
+Person 1 has 4 frame files
+Person 2 has 1 frame files
+Imported data for 84 frames
+WARN! Body part not available at all...
+WARN! Body part not available at all...
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-42-hendrik
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-79-margus/backflip-79-margus.mov-[frame_idx]-[person_idx].csv
+Input path includes 81 files
+Found 1 persons
+Person 0 has 70 frame files
+Imported data for 70 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-79-margus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-20-allar/flack-20-allar.mov-[frame_idx]-[person_idx].csv
+Input path includes 102 files
+Found 3 persons
+Person 0 has 91 frame files
+Person 1 has 10 frame files
+Person 2 has 1 frame files
+Imported data for 91 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-20-allar
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-32-rasmus/flack-32-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 117 files
+Found 3 persons
+Person 0 has 104 frame files
+Person 1 has 11 frame files
+Person 2 has 2 frame files
+Imported data for 104 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-32-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-60-hendrik/backflip-60-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 89 files
+Found 2 persons
+Person 0 has 83 frame files
+Person 1 has 1 frame files
+Imported data for 83 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-60-hendrik
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-60-martin/flack-60-martin.mov-[frame_idx]-[person_idx].csv
+Input path includes 108 files
+Found 2 persons
+Person 0 has 104 frame files
+Person 1 has 4 frame files
+Imported data for 104 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-60-martin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-2-allar/backflip-2-allar.mov-[frame_idx]-[person_idx].csv
+Input path includes 89 files
+Found 3 persons
+Person 0 has 83 frame files
+Person 1 has 5 frame files
+Person 2 has 1 frame files
+Imported data for 83 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-2-allar
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-12-hendrik/backflip-12-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 87 files
+Found 1 persons
+Person 0 has 81 frame files
+Imported data for 81 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-12-hendrik
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-26-tiit/backflip-26-tiit.mov-[frame_idx]-[person_idx].csv
+Input path includes 90 files
+Found 3 persons
+Person 0 has 81 frame files
+Person 1 has 8 frame files
+Person 2 has 1 frame files
+Imported data for 81 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-26-tiit
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-49-kristiin/flack-49-kristiin.mov-[frame_idx]-[person_idx].csv
+Input path includes 96 files
+Found 2 persons
+Person 0 has 94 frame files
+Person 1 has 2 frame files
+Imported data for 94 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-49-kristiin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-48-kristiin/flack-48-kristiin.mov-[frame_idx]-[person_idx].csv
+Input path includes 100 files
+Found 2 persons
+Person 0 has 96 frame files
+Person 1 has 4 frame files
+Imported data for 96 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-48-kristiin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-8-hendrik/flack-8-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 192 files
+Found 4 persons
+Person 0 has 92 frame files
+Person 1 has 91 frame files
+Person 2 has 8 frame files
+Person 3 has 1 frame files
+Imported data for 92 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-8-hendrik
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-49-joosep/backflip-49-joosep.mov-[frame_idx]-[person_idx].csv
+Input path includes 104 files
+Found 2 persons
+Person 0 has 103 frame files
+Person 1 has 1 frame files
+Imported data for 103 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-49-joosep
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-19-martin/backflip-19-martin.mov-[frame_idx]-[person_idx].csv
+Input path includes 103 files
+Found 2 persons
+Person 0 has 90 frame files
+Person 1 has 13 frame files
+Imported data for 90 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-19-martin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-35-mario/backflip-35-mario.mov-[frame_idx]-[person_idx].csv
+Input path includes 89 files
+Found 2 persons
+Person 0 has 85 frame files
+Person 1 has 1 frame files
+Imported data for 85 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-35-mario
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-74-hendrik/flack-74-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 109 files
+Found 2 persons
+Person 0 has 98 frame files
+Person 1 has 11 frame files
+Imported data for 98 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-74-hendrik
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-22-allar/flack-22-allar.mov-[frame_idx]-[person_idx].csv
+Input path includes 199 files
+Found 5 persons
+Person 0 has 91 frame files
+Person 1 has 68 frame files
+Person 2 has 29 frame files
+Person 3 has 10 frame files
+Person 4 has 1 frame files
+Imported data for 91 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-22-allar
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-55-rasmus/backflip-55-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 110 files
+Found 2 persons
+Person 0 has 108 frame files
+Person 1 has 1 frame files
+Imported data for 108 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-55-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-5-rasmus/backflip-5-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 99 files
+Found 2 persons
+Person 0 has 95 frame files
+Person 1 has 1 frame files
+Imported data for 95 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-5-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-81-martin/flack-81-martin.mov-[frame_idx]-[person_idx].csv
+Input path includes 106 files
+Found 2 persons
+Person 0 has 99 frame files
+Person 1 has 7 frame files
+Imported data for 99 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-81-martin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-88-joosep/backflip-88-joosep.mov-[frame_idx]-[person_idx].csv
+Input path includes 81 files
+Found 2 persons
+Person 0 has 67 frame files
+Person 1 has 1 frame files
+Imported data for 67 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-88-joosep
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-96-hendrik/backflip-96-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 76 files
+Found 2 persons
+Person 0 has 61 frame files
+Person 1 has 2 frame files
+Imported data for 61 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-96-hendrik
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-27-julia/flack-27-julia.mov-[frame_idx]-[person_idx].csv
+Input path includes 108 files
+Found 3 persons
+Person 0 has 95 frame files
+Person 1 has 9 frame files
+Person 2 has 4 frame files
+Imported data for 95 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-27-julia
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-44-kristiin/flack-44-kristiin.mov-[frame_idx]-[person_idx].csv
+Input path includes 92 files
+Found 2 persons
+Person 0 has 90 frame files
+Person 1 has 2 frame files
+Imported data for 90 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-44-kristiin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-45-kristiin/flack-45-kristiin.mov-[frame_idx]-[person_idx].csv
+Input path includes 103 files
+Found 3 persons
+Person 0 has 94 frame files
+Person 1 has 7 frame files
+Person 2 has 2 frame files
+Imported data for 94 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-45-kristiin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-59-margus/backflip-59-margus.mov-[frame_idx]-[person_idx].csv
+Input path includes 91 files
+Found 2 persons
+Person 0 has 89 frame files
+Person 1 has 2 frame files
+Imported data for 89 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-59-margus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-67-keit/backflip-67-keit.mov-[frame_idx]-[person_idx].csv
+Input path includes 65 files
+Found 3 persons
+Person 0 has 50 frame files
+Person 1 has 4 frame files
+Person 2 has 1 frame files
+Imported data for 50 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-67-keit
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-63-rasmus/flack-63-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 114 files
+Found 3 persons
+Person 0 has 107 frame files
+Person 1 has 6 frame files
+Person 2 has 1 frame files
+Imported data for 107 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-63-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-10-hendrik/backflip-10-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 88 files
+Found 3 persons
+Person 0 has 82 frame files
+Person 1 has 2 frame files
+Person 2 has 1 frame files
+Imported data for 82 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-10-hendrik
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-94-erko/backflip-94-erko.mov-[frame_idx]-[person_idx].csv
+Input path includes 63 files
+Found 1 persons
+Person 0 has 52 frame files
+Imported data for 52 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-94-erko
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-71-rasmus/flack-71-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 109 files
+Found 2 persons
+Person 0 has 103 frame files
+Person 1 has 6 frame files
+Imported data for 103 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-71-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-3-martin/flack-3-martin.mov-[frame_idx]-[person_idx].csv
+Input path includes 119 files
+Found 3 persons
+Person 0 has 101 frame files
+Person 1 has 14 frame files
+Person 2 has 4 frame files
+Imported data for 101 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-3-martin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-24-belinda/flack-24-belinda.mov-[frame_idx]-[person_idx].csv
+Input path includes 115 files
+Found 4 persons
+Person 0 has 101 frame files
+Person 1 has 11 frame files
+Person 2 has 2 frame files
+Person 3 has 1 frame files
+Imported data for 101 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-24-belinda
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-12-rasmus/flack-12-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 203 files
+Found 4 persons
+Person 0 has 108 frame files
+Person 1 has 88 frame files
+Person 2 has 6 frame files
+Person 3 has 1 frame files
+Imported data for 108 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-12-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-62-hendrik/backflip-62-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 94 files
+Found 2 persons
+Person 0 has 90 frame files
+Person 1 has 2 frame files
+Imported data for 90 frames
+WARN! Body part not available at all...
+WARN! Body part not available at all...
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-62-hendrik
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-51-rasmus/backflip-51-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 114 files
+Found 2 persons
+Person 0 has 102 frame files
+Person 1 has 12 frame files
+Imported data for 102 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-51-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-76-hendrik/flack-76-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 98 files
+Found 2 persons
+Person 0 has 95 frame files
+Person 1 has 3 frame files
+Imported data for 95 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-76-hendrik
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-15-gert/backflip-15-gert.mov-[frame_idx]-[person_idx].csv
+Input path includes 174 files
+Found 4 persons
+Person 0 has 82 frame files
+Person 1 has 80 frame files
+Person 2 has 9 frame files
+Person 3 has 3 frame files
+Imported data for 82 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-15-gert
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-14-gert/backflip-14-gert.mov-[frame_idx]-[person_idx].csv
+Input path includes 170 files
+Found 4 persons
+Person 0 has 80 frame files
+Person 1 has 77 frame files
+Person 2 has 11 frame files
+Person 3 has 2 frame files
+Imported data for 80 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-14-gert
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-1-allar/backflip-1-allar.mov-[frame_idx]-[person_idx].csv
+Input path includes 87 files
+Found 3 persons
+Person 0 has 83 frame files
+Person 1 has 3 frame files
+Person 2 has 1 frame files
+Imported data for 83 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-1-allar
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-53-rasmus/backflip-53-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 101 files
+Found 1 persons
+Person 0 has 97 frame files
+Imported data for 97 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-53-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-53-kristiin/flack-53-kristiin.mov-[frame_idx]-[person_idx].csv
+Input path includes 102 files
+Found 2 persons
+Person 0 has 94 frame files
+Person 1 has 8 frame files
+Imported data for 94 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-53-kristiin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-52-kristiin/flack-52-kristiin.mov-[frame_idx]-[person_idx].csv
+Input path includes 98 files
+Found 3 persons
+Person 0 has 92 frame files
+Person 1 has 5 frame files
+Person 2 has 1 frame files
+Imported data for 92 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-52-kristiin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-41-nastja/backflip-41-nastja.mov-[frame_idx]-[person_idx].csv
+Input path includes 81 files
+Found 2 persons
+Person 0 has 77 frame files
+Person 1 has 4 frame files
+Imported data for 77 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-41-nastja
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-23-allar/flack-23-allar.mov-[frame_idx]-[person_idx].csv
+Input path includes 190 files
+Found 5 persons
+Person 0 has 93 frame files
+Person 1 has 79 frame files
+Person 2 has 13 frame files
+Person 3 has 4 frame files
+Person 4 has 1 frame files
+Imported data for 93 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-23-allar
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-85-keit/backflip-85-keit.mov-[frame_idx]-[person_idx].csv
+Input path includes 63 files
+Found 3 persons
+Person 0 has 54 frame files
+Person 1 has 2 frame files
+Person 2 has 1 frame files
+Imported data for 54 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-85-keit
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-34-mario/backflip-34-mario.mov-[frame_idx]-[person_idx].csv
+Input path includes 82 files
+Found 1 persons
+Person 0 has 78 frame files
+Imported data for 78 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-34-mario
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-86-joosep/backflip-86-joosep.mov-[frame_idx]-[person_idx].csv
+Input path includes 75 files
+Found 2 persons
+Person 0 has 61 frame files
+Person 1 has 2 frame files
+Imported data for 61 frames
+WARN! Body part not available at all...
+WARN! Body part not available at all...
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-86-joosep
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-34-rasmus/flack-34-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 114 files
+Found 3 persons
+Person 0 has 99 frame files
+Person 1 has 12 frame files
+Person 2 has 3 frame files
+Imported data for 99 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-34-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-41-hendrik/flack-41-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 105 files
+Found 2 persons
+Person 0 has 93 frame files
+Person 1 has 12 frame files
+Imported data for 93 frames
+WARN! Body part not available at all...
+WARN! Body part not available at all...
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-41-hendrik
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-21-allar/flack-21-allar.mov-[frame_idx]-[person_idx].csv
+Input path includes 101 files
+Found 2 persons
+Person 0 has 93 frame files
+Person 1 has 8 frame files
+Imported data for 93 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-21-allar
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-36-mario/backflip-36-mario.mov-[frame_idx]-[person_idx].csv
+Input path includes 97 files
+Found 3 persons
+Person 0 has 90 frame files
+Person 1 has 6 frame files
+Person 2 has 1 frame files
+Imported data for 90 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-36-mario
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-18-gert/backflip-18-gert.mov-[frame_idx]-[person_idx].csv
+Input path includes 162 files
+Found 4 persons
+Person 0 has 80 frame files
+Person 1 has 75 frame files
+Person 2 has 6 frame files
+Person 3 has 1 frame files
+Imported data for 80 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-18-gert
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-57-margus/backflip-57-margus.mov-[frame_idx]-[person_idx].csv
+Input path includes 88 files
+Found 2 persons
+Person 0 has 87 frame files
+Person 1 has 1 frame files
+Imported data for 87 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-57-margus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-78-martin/flack-78-martin.mov-[frame_idx]-[person_idx].csv
+Input path includes 102 files
+Found 2 persons
+Person 0 has 97 frame files
+Person 1 has 5 frame files
+Imported data for 97 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-78-martin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-44-kristjan/backflip-44-kristjan.mov-[frame_idx]-[person_idx].csv
+Input path includes 89 files
+Found 3 persons
+Person 0 has 83 frame files
+Person 1 has 4 frame files
+Person 2 has 1 frame files
+Imported data for 83 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-44-kristjan
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-45-kristjan/backflip-45-kristjan.mov-[frame_idx]-[person_idx].csv
+Input path includes 89 files
+Found 1 persons
+Person 0 has 86 frame files
+Imported data for 86 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-45-kristjan
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-1-martin/flack-1-martin.mov-[frame_idx]-[person_idx].csv
+Input path includes 119 files
+Found 3 persons
+Person 0 has 104 frame files
+Person 1 has 12 frame files
+Person 2 has 3 frame files
+Imported data for 104 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-1-martin
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/flack-10-rasmus/flack-10-rasmus.mov-[frame_idx]-[person_idx].csv
+Input path includes 186 files
+Found 3 persons
+Person 0 has 105 frame files
+Person 1 has 78 frame files
+Person 2 has 3 frame files
+Imported data for 105 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/flack-10-rasmus
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-11-hendrik/backflip-11-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 83 files
+Found 1 persons
+Person 0 has 74 frame files
+Imported data for 74 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-11-hendrik
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-3-allar/backflip-3-allar.mov-[frame_idx]-[person_idx].csv
+Input path includes 88 files
+Found 3 persons
+Person 0 has 84 frame files
+Person 1 has 3 frame files
+Person 2 has 1 frame files
+Imported data for 84 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-3-allar
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-89-keit/backflip-89-keit.mov-[frame_idx]-[person_idx].csv
+Input path includes 62 files
+Found 1 persons
+Person 0 has 55 frame files
+Imported data for 55 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-89-keit
+Frame file full path=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/raw-keypoints/backflip-9-hendrik/backflip-9-hendrik.mov-[frame_idx]-[person_idx].csv
+Input path includes 87 files
+Found 1 persons
+Person 0 has 83 frame files
+Imported data for 83 frames
+Creating output dir=/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration/filled-keypoints/backflip-9-hendrik
+
+Process finished with exit code 0
