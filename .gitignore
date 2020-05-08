@@ -6,3 +6,5 @@ smoothed-keypoints/
 .ipynb_checkpoints/
 
 .idea/
+
+__pycache__/

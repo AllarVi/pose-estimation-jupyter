@@ -13,7 +13,7 @@ class Smoother:
 
     @staticmethod
     def run(frames_dir, project_dir, wrapper_input_dir):
-        wrapper_output_dir = "smoothed-keypoints"
+        wrapper_output_dir = "smoothed-2-keypoints"
 
         frames_dir_full_path = f"{project_dir}/{wrapper_input_dir}/{frames_dir}"
         frame_file_full_path = f"{frames_dir_full_path}/{frames_dir}.mov-[frame_idx]-[person_idx].csv"
