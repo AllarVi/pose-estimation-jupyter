@@ -7,13 +7,14 @@ import pandas as pd
 from path import Path
 
 from body_part_not_available import BodyPartPointNotAvailable
+from normalizer import Normalizer
 
 
 class Smoother:
 
     @staticmethod
     def run(frames_dir, project_dir, wrapper_input_dir):
-        wrapper_output_dir = "smoothed-2-keypoints"
+        wrapper_output_dir = "centered-keypoints"
 
         frames_dir_full_path = f"{project_dir}/{wrapper_input_dir}/{frames_dir}"
         frame_file_full_path = f"{frames_dir_full_path}/{frames_dir}.mov-[frame_idx]-[person_idx].csv"
@@ -30,15 +31,25 @@ class Smoother:
         person_idx_to_collect = 0
         person_frame_files = all_persons_files[person_idx_to_collect]
 
-        frame_data = [Smoother.get_frame_data(frame_file) for frame_file in person_frame_files]
+        frames_list = [Smoother.get_frame_data(frame_file) for frame_file in person_frame_files]
 
-        print(f"Imported data for {len(frame_data)} frames")
+        print(f"Imported data for {len(frames_list)} frames")
+
+        # for body_part_idx in range(0, 25):
+        #   frames_list = Smoother.smooth_average(frames_list, body_part_idx)
+
+        # for body_part_idx in range(0, 25):
+        #    frames_list = Smoother.fill_body_part_data_with_averages(frames_list, body_part_idx)
+
+        first_frame_df = frames_list[0]
+        old_hip_x = float(first_frame_df.iloc[8, 0:1])
+        old_hip_y = float(first_frame_df.iloc[8, 1:2])
 
         for body_part_idx in range(0, 25):
-           frame_data = Smoother.smooth_average(frame_data, body_part_idx)
-
-        #for body_part_idx in range(0, 25):
-        #    frame_data = Smoother.fill_body_part_data_with_averages(frame_data, body_part_idx)
+            frames_list = Normalizer.normalize_to_center(frames_list,
+                                                         old_hip_x=old_hip_x,
+                                                         old_hip_y=old_hip_y,
+                                                         body_part_nr=body_part_idx)
 
         output_frames_root_path = f"{project_dir}/{wrapper_output_dir}/{frames_dir}"
 
@@ -46,7 +57,7 @@ class Smoother:
             print(f"Creating output dir={output_frames_root_path}")
             os.mkdir(output_frames_root_path)
 
-        for idx, fixed_frame in enumerate(frame_data):
+        for idx, fixed_frame in enumerate(frames_list):
             frame_file_full_path = f"{output_frames_root_path}/{frames_dir}.mov-[frame_idx]-[person_idx].csv"
             frame_file_full_path = frame_file_full_path.replace('[frame_idx]', str(idx))
             frame_file_full_path = frame_file_full_path.replace('[person_idx]', str(person_idx_to_collect))

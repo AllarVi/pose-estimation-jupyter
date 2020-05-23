@@ -5,7 +5,7 @@ from smoother import Smoother
 
 def main():
     project_dir = "/Users/allarviinamae/EduWorkspace/openpose-jupyter-data-exploration"
-    wrapper_input_dir = "smoothed-keypoints"
+    wrapper_input_dir = "filtered-keypoints"
 
     input_full_path = f"{project_dir}/{wrapper_input_dir}"
 
