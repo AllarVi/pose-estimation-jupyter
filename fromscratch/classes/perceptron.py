@@ -1,8 +1,6 @@
 class Perceptron:
 
-    def predict(self, row, weights):
-        bias = weights[0]
-        weights = weights[1:]
+    def predict(self, row, weights, bias):
         x = row[:-1]
 
         state = self.get_state(bias, x, weights)

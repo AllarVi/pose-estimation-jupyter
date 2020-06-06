@@ -18,26 +18,31 @@ class Main:
                    [7.673756466, 3.508563011, 1]]
         l_rate = 0.1
         n_epoch = 5
+
         weights = Main.train_weights(dataset, l_rate, n_epoch)
+
         print(weights)
 
     # Estimate Perceptron weights using stochastic gradient descent
     @staticmethod
     def train_weights(train, l_rate, n_epoch):
 
-        weights = [0.0 for i in range(len(train[0]))]
+        train_x = [row[0:-1] for row in train]
+
+        weights = [0.0 for i in range(len(train_x[0]))]
+        bias = 0.0
 
         perceptron = Perceptron()
 
         for epoch in range(n_epoch):
             sum_error = 0.0
             for row in train:
-                prediction = perceptron.predict(row, weights)
+                prediction = perceptron.predict(row, weights, bias)
                 error = row[-1] - prediction
                 sum_error += error ** 2
-                weights[0] = weights[0] + l_rate * error
+                bias = bias + l_rate * error
                 for i in range(len(row) - 1):
-                    weights[i + 1] = weights[i + 1] + l_rate * error * row[i]
+                    weights[i] = weights[i] + l_rate * error * row[i]
             print('>epoch=%d, lrate=%.3f, error=%.3f' % (epoch, l_rate, sum_error))
 
         return weights
