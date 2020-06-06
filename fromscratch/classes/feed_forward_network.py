@@ -26,8 +26,8 @@ class FeedForwardNetwork():
                 for i in range(n_outputs)]
 
     def summary(self):
-        for layer in self.layers:
-            print(layer)
+        for i, layer in enumerate(self.layers):
+            print(f"Layer({i}): {layer}")
 
     def forward_propagate(self, row):
         inputs = row
