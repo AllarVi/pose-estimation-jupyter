@@ -1,10 +1,11 @@
+from unittest import TestCase
+
 from fromscratch.classes.perceptron_model import PerceptronModel
 
 
-class Main:
+class TestPerceptronModel(TestCase):
 
-    @staticmethod
-    def run():
+    def setUp(self):
         dataset = [[2.7810836, 2.550537003, 0],
                    [1.465489372, 2.362125076, 0],
                    [3.396561688, 4.400293529, 0],
@@ -21,11 +22,13 @@ class Main:
         train_x = [row[0:-1] for row in dataset]
         train_y = [row[-1] for row in dataset]
 
-        perceptronModel = PerceptronModel(train_x, train_y, l_rate, n_epoch)
-        weights, bias = perceptronModel.train()
+        self.perceptron_model = PerceptronModel(train_x, train_y, l_rate, n_epoch)
 
-        print(weights, bias)
+    def test_predict(self):
+        weights, bias = self.perceptron_model.train()
 
+        expected_weights = [0.20653640140000007, -0.23418117710000003]
+        for idx, weight in enumerate(weights):
+            self.assertEqual(expected_weights[idx], weight)
 
-if __name__ == '__main__':
-    Main.run()
+        self.assertEqual(-0.1, bias)
