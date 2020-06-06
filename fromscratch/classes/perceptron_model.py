@@ -1,7 +1,8 @@
+from fromscratch.classes.base_model import BaseModel
 from fromscratch.classes.perceptron import Perceptron
 
 
-class PerceptronModel:
+class PerceptronModel(BaseModel):
 
     def __init__(self, train_x, train_y, l_rate, n_epoch) -> None:
         self.train_x = train_x
@@ -23,19 +24,11 @@ class PerceptronModel:
                 prediction = perceptron.predict(X, self.weights, self.bias)
                 error = self.train_y[X_idx] - prediction
 
-                self.bias = PerceptronModel.update_bias(error, self.l_rate, self.bias)
-                self.weights = PerceptronModel.update_weights(error, self.l_rate, self.weights, X)
+                self.bias = BaseModel.update_bias(error, self.l_rate, self.bias)
+                self.weights = BaseModel.update_weights(error, self.l_rate, self.weights, X)
 
                 sum_error += error ** 2
 
             print('>epoch=%d, lrate=%.3f, error=%.3f' % (epoch, self.l_rate, sum_error))
 
         return self.weights, self.bias
-
-    @staticmethod
-    def update_weights(error, l_rate, weights, X):
-        return [weights[i] + l_rate * error * X[i] for i in range(len(X))]
-
-    @staticmethod
-    def update_bias(error, l_rate, bias):
-        return bias + l_rate * error

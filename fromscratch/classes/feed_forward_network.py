@@ -1,9 +1,10 @@
 from random import random
 
+from fromscratch.classes.base_model import BaseModel
 from fromscratch.classes.sigmoid_unit import SigmoidUnit
 
 
-class FeedForwardNetwork():
+class FeedForwardNetwork(BaseModel):
 
     def __init__(self, n_inputs, n_hidden, n_outputs) -> None:
         self.n_inputs = n_inputs
@@ -50,7 +51,7 @@ class FeedForwardNetwork():
     def transfer_derivative(output):
         return output * (1.0 - output)
 
-    # Backpropagate error and store in neurons
+    # Backpropagate error and store in neurons (done for all neurons in network)
     def backward_propagate_error(self, expected):
         layers = self.layers
 
@@ -70,6 +71,28 @@ class FeedForwardNetwork():
 
             for j, neuron in enumerate(layer):
                 neuron['delta'] = errors[j] * FeedForwardNetwork.transfer_derivative(neuron['output'])
+
+    # Update network weights with error
+    def update_network_weights(self, row, l_rate):
+        layers = self.layers
+
+        for i, layer in enumerate(layers):
+            inputs = row[:-1]
+
+            # If not first layer, get neuron outputs of previous layer as inputs
+            if i != 0:
+                prev_layer = layers[i - 1]
+                inputs = [neuron['output'] for neuron in prev_layer]
+
+            for neuron in layer:
+                neuron['weights'] = BaseModel.update_weights(neuron['delta'],
+                                                             l_rate,
+                                                             neuron['weights'],
+                                                             inputs)
+
+                neuron['bias'] = BaseModel.update_bias(neuron['delta'],
+                                                       l_rate,
+                                                       neuron['bias'])
 
     @staticmethod
     def get_error_for_current_layer_neuron(current_layer_neuron_idx, prev_layer):
