@@ -1,7 +1,23 @@
-class Perceptron:
+from random import random
 
-    def predict(self, x, weights, bias):
-        state = self.get_state(bias, x, weights)
+from fromscratch.classes.base_model import BaseModel
+
+
+class Perceptron(BaseModel):
+
+    def __init__(self, n_inputs, rand=False) -> None:
+        if rand:
+            self.weights = [random() for i in range(n_inputs)]
+            self.bias = random()
+        else:
+            self.weights = [0.0 for i in range(n_inputs)]
+            self.bias = 0.0
+
+        self.output = 0.0
+        self.delta = 0.0
+
+    def predict(self, x):
+        state = self.get_state(self.bias, x, self.weights)
 
         return self.get_activation(state)
 
@@ -17,3 +33,7 @@ class Perceptron:
 
     def get_weighted_input(self, x, weights):
         return sum([weights[i] * x[i] for i in range(len(x))])
+
+    def update_model_weights(self, X, l_rate, error):
+        self.weights = BaseModel.update_weights(error, l_rate, self.weights, X)
+        self.bias = BaseModel.update_bias(error, l_rate, self.bias)
