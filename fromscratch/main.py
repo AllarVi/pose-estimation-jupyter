@@ -19,15 +19,16 @@ class Main:
         l_rate = 0.1
         n_epoch = 5
 
-        weights = Main.train_weights(dataset, l_rate, n_epoch)
+        train_x = [row[0:-1] for row in dataset]
+        train_y = [row[-1] for row in dataset]
 
-        print(weights)
+        weights, bias = Main.train_weights(train_x, train_y, l_rate, n_epoch)
+
+        print(weights, bias)
 
     # Estimate Perceptron weights using stochastic gradient descent
     @staticmethod
-    def train_weights(train, l_rate, n_epoch):
-
-        train_x = [row[0:-1] for row in train]
+    def train_weights(train_x, train_y, l_rate, n_epoch):
 
         weights = [0.0 for i in range(len(train_x[0]))]
         bias = 0.0
@@ -36,16 +37,27 @@ class Main:
 
         for epoch in range(n_epoch):
             sum_error = 0.0
-            for row in train:
-                prediction = perceptron.predict(row, weights, bias)
-                error = row[-1] - prediction
+
+            for X_idx, X in enumerate(train_x):
+                prediction = perceptron.predict(X, weights, bias)
+                error = train_y[X_idx] - prediction
+
+                bias = Main.update_bias(error, l_rate, bias)
+                weights = Main.update_weights(error, l_rate, weights, X)
+
                 sum_error += error ** 2
-                bias = bias + l_rate * error
-                for i in range(len(row) - 1):
-                    weights[i] = weights[i] + l_rate * error * row[i]
+
             print('>epoch=%d, lrate=%.3f, error=%.3f' % (epoch, l_rate, sum_error))
 
-        return weights
+        return weights, bias
+
+    @staticmethod
+    def update_weights(error, l_rate, weights, X):
+        return [weights[i] + l_rate * error * X[i] for i in range(len(X))]
+
+    @staticmethod
+    def update_bias(error, l_rate, bias):
+        return bias + l_rate * error
 
 
 if __name__ == '__main__':
