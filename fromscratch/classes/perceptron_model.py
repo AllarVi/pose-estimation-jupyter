@@ -21,7 +21,7 @@ class PerceptronModel():
                 prediction = perceptron.predict(X)
                 error = self.train_y[X_idx] - prediction
 
-                perceptron.update_model_weights(X, self.l_rate, error)
+                perceptron.update_neuron_weights(X, self.l_rate, error)
 
                 sum_error += error ** 2
 

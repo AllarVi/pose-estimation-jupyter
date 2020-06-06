@@ -76,9 +76,7 @@ class FeedForwardNetwork(BaseModel):
                 inputs = [neuron.output for neuron in prev_layer]
 
             for neuron in layer:
-                neuron.update_model_weights(inputs,
-                                            l_rate,
-                                            neuron.delta)
+                neuron.update_neuron_weights(inputs, l_rate, neuron.delta)
 
     @staticmethod
     def get_error_for_current_layer_neuron(current_layer_neuron_idx, prev_layer):

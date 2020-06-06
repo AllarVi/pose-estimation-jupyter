@@ -34,6 +34,6 @@ class Perceptron(BaseModel):
     def get_weighted_input(self, x, weights):
         return sum([weights[i] * x[i] for i in range(len(x))])
 
-    def update_model_weights(self, X, l_rate, error):
+    def update_neuron_weights(self, X, l_rate, error):
         self.weights = BaseModel.update_weights(error, l_rate, self.weights, X)
         self.bias = BaseModel.update_bias(error, l_rate, self.bias)
