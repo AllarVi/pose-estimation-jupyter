@@ -20,12 +20,15 @@ class Main:
                    [8.675418651, -0.242068655, 1],
                    [7.673756466, 3.508563011, 1]]
 
-        n_inputs = len(dataset[0]) - 1
-        n_outputs = len(set([row[-1] for row in dataset]))
+        train_x = [row[0:-1] for row in dataset]
+        train_y = [row[-1] for row in dataset]
+
+        n_inputs = len(train_x[0])
+        n_outputs = len(set(train_y))
 
         network = FeedForwardNetwork(n_inputs, 2, n_outputs)
 
-        network_model = FeedForwardNetworkModel(dataset, 0.5, 20)
+        network_model = FeedForwardNetworkModel(train_x, train_y, 0.5, 20)
         network_model.train_network(network, n_outputs)
 
         network.summary()

@@ -30,15 +30,14 @@ class FeedForwardNetwork(BaseModel):
         for i, layer in enumerate(self.layers):
             print(f"Layer({i}): {layer}")
 
-    def forward_propagate(self, row):
-        inputs = row
+    def forward_propagate(self, inputs):
 
         sigmoid_unit = SigmoidUnit()
 
         for layer in self.layers:
             new_inputs = []
             for neuron in layer:
-                neuron['output'] = sigmoid_unit.predict(inputs[:-1],
+                neuron['output'] = sigmoid_unit.predict(inputs,
                                                         neuron['weights'],
                                                         neuron['bias'])
                 new_inputs.append(neuron['output'])
@@ -73,12 +72,10 @@ class FeedForwardNetwork(BaseModel):
                 neuron['delta'] = errors[j] * FeedForwardNetwork.transfer_derivative(neuron['output'])
 
     # Update network weights with error
-    def update_network_weights(self, row, l_rate):
+    def update_network_weights(self, inputs, l_rate):
         layers = self.layers
 
         for i, layer in enumerate(layers):
-            inputs = row[:-1]
-
             # If not first layer, get neuron outputs of previous layer as inputs
             if i != 0:
                 prev_layer = layers[i - 1]
