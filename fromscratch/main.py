@@ -28,7 +28,7 @@ class Main:
 
         network = FeedForwardNetwork(n_inputs, 2, n_outputs)
 
-        network_model = FeedForwardNetworkModel(train_x, train_y, 0.5, 20)
+        network_model = FeedForwardNetworkModel(train_x, train_y, l_rate=0.5, n_epoch=20)
         network_model.train_network(network, n_outputs)
 
         network.summary()

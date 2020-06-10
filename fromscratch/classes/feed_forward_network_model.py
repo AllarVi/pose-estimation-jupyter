@@ -21,4 +21,4 @@ class FeedForwardNetworkModel:
                 network.backward_propagate_error(expected)
                 network.update_model_weights(inputs, self.l_rate)
 
-            print('>epoch=%d, lrate=%.3f, error=%.3f' % (epoch, self.l_rate, sum_error))
+            print('>epoch=%d, lrate=%.3f, error=%.3f' % (epoch, self.l_rate, sum_error / 2))
