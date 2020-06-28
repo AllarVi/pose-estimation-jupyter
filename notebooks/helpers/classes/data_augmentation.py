@@ -44,15 +44,29 @@ class DataAugmentation:
 
     @staticmethod
     def save_new_sample(frames_dir, frames_list, project_dir, wrapper_output_dir):
-        output_frames_root_path = f"{project_dir}/{wrapper_output_dir}/{frames_dir}"
-        if not path.exists(output_frames_root_path):
-            print(f"Creating output dir={output_frames_root_path}")
-            os.mkdir(output_frames_root_path)
+        output_frames_root_path = DataAugmentation.create_output_dirs(frames_dir, project_dir, wrapper_output_dir)
+
         for idx, fixed_frame in enumerate(frames_list):
             frame_file_full_path = f"{output_frames_root_path}/{frames_dir}.mov-[frame_idx]-0.csv"
             frame_file_full_path = frame_file_full_path.replace('[frame_idx]', str(idx))
 
             fixed_frame.to_csv(frame_file_full_path, index=False)
+
+    @staticmethod
+    def create_output_dirs(frames_dir, project_dir, wrapper_output_dir):
+        output_wrapper_path = f"{project_dir}/{wrapper_output_dir}"
+
+        if not path.exists(output_wrapper_path):
+            print(f"Creating output wrapper dir={output_wrapper_path}")
+            os.mkdir(output_wrapper_path)
+
+        output_frames_root_path = f"{output_wrapper_path}/{frames_dir}"
+
+        if not path.exists(output_frames_root_path):
+            print(f"Creating output dir={output_frames_root_path}")
+            os.mkdir(output_frames_root_path)
+
+        return output_frames_root_path
 
     @staticmethod
     def get_frame_data(frame_file):
