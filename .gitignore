@@ -2,6 +2,7 @@ image-keypoints/
 filled-keypoints/
 raw-keypoints/
 smoothed-keypoints/
+augmented-keypoints/
 
 .ipynb_checkpoints/
 

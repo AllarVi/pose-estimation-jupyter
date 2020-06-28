@@ -1,4 +1,6 @@
+import math
 import os
+import random
 from glob import glob
 from os import path
 
@@ -31,16 +33,24 @@ class DataAugmentation:
 
         print(f"Imported data for {len(frames_list)} frames")
 
-        # for body_part_idx in range(0, 25):
-        #   frames_list = Smoother.smooth_average(frames_list, body_part_idx)
+        upperbody_pairs = [(1, 2), (2, 3), (3, 4), (1, 5), (5, 6), (6, 7), (0, 1), (1, 8)]
+        lowerbody_pairs = [(8, 9), (9, 10), (10, 11), (8, 12), (12, 13), (13, 14)]
 
-        # for body_part_idx in range(0, 25):
-        #    frames_list = Smoother.fill_body_part_data_with_averages(frames_list, body_part_idx)
+        all_pairs = upperbody_pairs + lowerbody_pairs
 
-        DataAugmentation.save_new_sample(frames_dir,
-                                         frames_list,
-                                         project_dir,
-                                         wrapper_output_dir)
+        for i in range(1000):  # num. of augmentations of this sample
+            frames_list_result = [frame.copy() for frame in frames_list]
+
+            for pair in all_pairs:
+                random_degree = random.randint(0, 15)
+
+                for frame_idx, frame in enumerate(frames_list_result):
+                    frames_list_result[frame_idx] = DataAugmentation.rotate_pair(frame, pair, random_degree)
+
+            DataAugmentation.save_new_sample(frames_dir + f"-aug-{i}",
+                                             frames_list_result,
+                                             project_dir,
+                                             wrapper_output_dir)
 
     @staticmethod
     def save_new_sample(frames_dir, frames_list, project_dir, wrapper_output_dir):
@@ -51,6 +61,21 @@ class DataAugmentation:
             frame_file_full_path = frame_file_full_path.replace('[frame_idx]', str(idx))
 
             fixed_frame.to_csv(frame_file_full_path, index=False)
+
+    @staticmethod
+    def rotate(origin, point, angle):
+        """
+        Rotate a point counterclockwise by a given angle around a given origin.
+
+        The angle should be given in radians.
+        """
+        ox, oy = origin
+        px, py = point
+
+        qx = ox + math.cos(angle) * (px - ox) - math.sin(angle) * (py - oy)
+        qy = oy + math.sin(angle) * (px - ox) + math.cos(angle) * (py - oy)
+
+        return qx, qy
 
     @staticmethod
     def create_output_dirs(frames_dir, project_dir, wrapper_output_dir):
@@ -104,6 +129,20 @@ class DataAugmentation:
             print(f"Person {person_idx} has {len(all_persons_files[person_idx])} frame files")
 
         return all_persons_files
+
+    @staticmethod
+    def rotate_pair(frame, pair_to_rotate, random_degree):
+        (body_part_first, body_part_second) = pair_to_rotate
+
+        origin = frame.iloc[body_part_first, 0], frame.iloc[body_part_first, 1]
+        point = frame.iloc[body_part_second, 0], frame.iloc[body_part_second, 1]
+
+        (r_point_x, r_point_y) = DataAugmentation.rotate(origin, point, math.radians(random_degree))
+
+        frame.iloc[body_part_second, 0] = r_point_x
+        frame.iloc[body_part_second, 1] = r_point_y
+
+        return frame
 
 
 if __name__ == '__main__':
