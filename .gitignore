@@ -7,4 +7,6 @@ smoothed-keypoints/
 
 .idea/
 
+notebooks/model-output/
+
 __pycache__/
