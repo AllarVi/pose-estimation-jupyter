@@ -82,7 +82,11 @@ class DataLoader:
 
             frames.append(frame_data)
 
-        return np.dstack(frames)
+        frames = np.dstack(frames)
+        squeezed = np.squeeze(frames)
+        axes_swapped = np.swapaxes(squeezed, 0, 1)
+
+        return axes_swapped
 
     @staticmethod
     def get_sample_idx_by_frames_count(frames_count, samples):
@@ -101,10 +105,10 @@ class DataLoader:
     @staticmethod
     def get_samples_list(sample_dir_names, root_path):
         samples = []
-        for sample_dir_name in sample_dir_names:
+        sample_dir_names_count = len(sample_dir_names)
+        for sample_dir_name_idx, sample_dir_name in enumerate(sample_dir_names):
+            print(f"Loading frames for {sample_dir_name_idx}/{sample_dir_names_count}")
             frames = DataLoader.get_frames(root_path, sample_dir_name)
-            squeezed = np.squeeze(frames)
-            axes_swapped = np.swapaxes(squeezed, 0, 1)
-            samples.append(axes_swapped)
+            samples.append(frames)
 
         return samples

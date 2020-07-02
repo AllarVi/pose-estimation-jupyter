@@ -38,7 +38,7 @@ class DataAugmentation:
 
         all_pairs = upperbody_pairs + lowerbody_pairs
 
-        for i in range(1000):  # num. of augmentations of this sample
+        for i in range(100):  # num. of augmentations of this sample
             frames_list_result = [frame.copy() for frame in frames_list]
 
             for pair in all_pairs:
