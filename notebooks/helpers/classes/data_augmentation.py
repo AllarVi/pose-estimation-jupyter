@@ -12,7 +12,7 @@ class DataAugmentation:
 
     @staticmethod
     def run(frames_dir, project_dir, wrapper_input_dir):
-        wrapper_output_dir = "augmented-keypoints"
+        wrapper_output_dir = "augmented-keypoints-339"
 
         frames_dir_full_path = f"{project_dir}/{wrapper_input_dir}/{frames_dir}"
         frame_file_full_path = f"{frames_dir_full_path}/{frames_dir}.mov-[frame_idx]-[person_idx].csv"
@@ -38,7 +38,7 @@ class DataAugmentation:
 
         all_pairs = upperbody_pairs + lowerbody_pairs
 
-        for i in range(100):  # num. of augmentations of this sample
+        for i in range(3):  # num. of augmentations of this sample
             frames_list_result = [frame.copy() for frame in frames_list]
 
             for pair in all_pairs:
